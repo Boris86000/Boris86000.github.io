@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<main>    <section class="hero">
+        <div class="container">
+            <header class="header__top">
+                <div class="header__menu">
+            <div class="logo"><a href="#" class="logo__link"><span>алко</span>-лицензии.рф
+            <p class="logo__text">Федеральный центр лицензирования</p></a></div>
+
+            <nav class="header__nav">
+                <a href="#" class="header__nav--item">Интересное </a>
+                <a href="#" class="header__nav--item"> Акция</a>
+                <a href="#" class="header__nav--item">Услуги</a>
+                <a href="#" class="header__nav--item">Клиенты</a>
+                <a href="#" class="header__nav--item">Контакты</a>
+              
+            </nav>
+            <div class="phone">
+                <p class="phone__number">+7 (499) 777 77 77</p>
+            <p class="fast_connection"><a href="#" class="fast_link"><span class="dotted">Быстрая связь</span></a></p></div>
+            </header>
+            
+
+        </div>
+
+        <h1 class="hero__title">Лицензия на алкоголь за 1 месяц 
+            и 50 000 руб. 
+            </h1>
+        <p class="hero__title--text">Помогаем получить лицензию со 100% гарантией. 
+            Розница. Сразу <span class="weight">на 3 года по цене одного*.</span> </p>
+        <a href="#" class="hero__title--btn">Застолбить цену по акции</a>
+        <small class="promotion">*Акция до 21 февраля 2017 г.</small>
+
+        <div class="anchor">
+            <a href="javascript://0" onclick="slowScroll ('#anchor')" class="anchor__link">
+                <img src="./img/Arrow_Down_.svg" alt="Arrow" class="anchor__img">
+            </a>
+        </div>
+
+    </div>  <!--//container-->
+    </section>
+
+<section class="dont_cry" id="anchor">
+    <div class="container">
+         <h2 class="dont_cry__title" >Довольно лить слезы. 
+        Пора разливать.</h2>
+    <div class="cards">
+        <div class="card__services">
+            <img src="./img/icon.svg" alt="case" class="card__img">
+            <p class="card__text">Дружелюбные юристы, которые говорят с вами
+                на одном языке</p>
+        </div>
+        <div class="card__services">
+            <img src="./img/icon2.svg" alt="schedule" class="card__img">
+            <p class="card__text">Мощный опыт в юриспруденции с B2B 
+                и торговыми площадками </p>
+        </div>
+        <div class="card__services">
+            <img src="./img/icon3.svg" alt="monitor" class="card__img">
+            <p class="card__text">Никаких подводных булыжников. Цены те же, 
+                что и на сайте</p>
+        </div> 
+    </div>
+        <a href="#" class="dont_cry__btn">Получить консультацию</a>
+
+    </div>
+   
+
+</section> 
+<!-- //dont_cry -->
+
+<section class="alcohol_license">
+    <div class="container">
+        <h2 class="alcohol_license__title">Получите лицензию 
+                на алкоголь <span>сразу на 3 года</span>, 
+                а платите только за один.</h2>
+        <p class="alcohol_license__text">Застолбите цену по акции уже сейчас, а решайте потом.<br> 
+                Выгодная цена будет зафиксирована вами, даже когда акция закончится*.</p>
+        <a href="" class="alcohol_license__btn">Застолбить цену по акции</a>
+        <small class="promotion_action">*Акция до 21 февраля 2017 г.</small>
+        <!-- <img src="./img/line.png" alt="" class="alcohol_license__img1"> -->
+        <div class="alcohol_license__wrap"> <img src="./img/Wine_Bottle.png" alt="" class="alcohol_license__img2">
+        </div>
+           
+        
+        
+    </div>
+</section>
+<!-- //alcohol_license -->
+
+<section class="licensing_center">
+<div class="container">
+    <img src="./img/man.png" alt="man" class="licensing_center__img">
+    <h2 class="licensing_center__title">Парадокс юристов<br> «Центр Лицензирования»</h2>
+    <small class="licensing_center__text">Нашей скорости лицензирования алкоголя можно позавидовать. Однако сами мы почти не пьем</small>
+</div>
+</section>
+</main>
+
+<footer class="getting_licensece">
+   <div class="inner"><h1 class="footer__title">Получите лицензию 
+                на алкоголь за 1 месяц </h1>
+        <p class="footer__text">вместе с юристами "Центр Лицензирования"</p>
+        </div><a href="#" class="footer__btn">Застолбить цену по акции</a>
+        <!-- <img src="./img/Layer_1.png" alt="" class="footer__image"> -->
+
+    
+</footer>
+<script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+<script>
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 233) {
+        $(".header__menu").addClass("animate");
+            } else {
+        $(".header__menu").removeClass("animate");
+    }
+});
+</script>
+
+<script>
+    function slowScroll (id) {
+      let offset = 0;
+      $('html, body').animate ({
+        scrollTop: $(id).offset ().top - offset
+      }, 500);
+      return false;
+    }
+</script>
+
+</body>
+</html>
