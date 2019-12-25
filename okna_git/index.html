@@ -10,8 +10,10 @@
         href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600&display=swap&subset=cyrillic"
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.min.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/styles.min.css.map">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
 </head>
 
@@ -58,9 +60,9 @@
         <div class="header__midle">
             <div class="header__midle-container">
                 <div class="header__midle-wrap">
-                    <a href="#" class="header__midle-link"><img src="../img/svg/logo1.svg" alt=""
+                    <a href="#" class="header__midle-link"><img src="./img/svg/logo1.svg" alt=""
                             class="header__midle-img1"></a>
-                    <img src="../img/svg/logo_7years.svg" alt="" class="header__midle-img2">
+                    <img src="./img/svg/logo_7years.svg" alt="" class="header__midle-img2">
                     <form action="" method="post" class="search">
                         <input type="search" class="header__midle-input" placeholder="Поиск по сайту">
                         <input type="submit" name="" value="" class="submit">
@@ -111,9 +113,10 @@
             <p class="hero__text">На основании указанных вами данных наш менеджер рассчитает точную стоимость заказа и
                 при необходимости перезвонит вам для уточнения возможных вариантов</p>
             <div class="hero__slider">
-
+                <!-- <img src="../img/svg/arrow_left.svg" alt=""> -->
                 <div class="hero__slider-wrap one-time">
-                    <div>
+
+                    <div class="active js-tab-trigger" data-tab="1">
                         <label class="hero__slider-item">
                             <input type="radio" name="1" value="a" id="radio-1">
                             <!-- <img src="../img/svg/tricuspid_window.svg" alt=""> -->
@@ -127,8 +130,7 @@
                         </label>
                     </div>
 
-
-                    <div>
+                    <div class="js-tab-trigger" data-tab="2">
                         <label class="hero__slider-item">
                             <input type="radio" name="1" value="b" id="radio-2">
                             <!-- <img src="../img/svg/tricuspid_window_with_transom.svg" alt=""> -->
@@ -142,7 +144,7 @@
                             <span class="hero__slider-text">Трехстворчатое<br> окно с фрамугой</span>
                         </label>
                     </div>
-                    <div>
+                    <div class="js-tab-trigger" data-tab="3">
                         <label class="hero__slider-item">
                             <input type="radio" name="1" value="c" id="radio-3">
                             <!-- <img src="../img/svg/arched_window.svg" alt=""> -->
@@ -154,7 +156,7 @@
                             <span class="hero__slider-text">Арочное<br> окно</span>
                         </label>
                     </div>
-                    <div>
+                    <div class="js-tab-trigger" data-tab="4">
                         <label class="hero__slider-item">
                             <input type="radio" name="1" value="d" id="radio-4">
                             <!-- <img src="../img/svg/balcony_block.svg" alt=""> -->
@@ -169,7 +171,7 @@
                             <span class="hero__slider-text">Балконный<br> блок</span>
                         </label>
                     </div>
-                    <div>
+                    <div class="js-tab-trigger" data-tab="5">
                         <label class="hero__slider-item">
                             <input checked type="radio" name="1" value="e" id="radio-5">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
@@ -189,52 +191,56 @@
                         </label>
                     </div>
 
-                    <div>
+                    <div class="js-tab-trigger" data-tab="6">
                         <label class="hero__slider-item">
-                            <input checked type="radio" name="1" value="e" id="radio-5">
+                            <input type="radio" name="1" value="f" id="radio-6">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
-                            <svg width="21" height="42" viewBox="0 0 21 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2"/>
-                                </svg>
+                            <svg width="21" height="42" viewBox="0 0 21 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2" />
+                            </svg>
                             <span class="hero__slider-text">Одностворчатое <br>окно</span>
                         </label>
                     </div>
 
-                    <div>
+                    <div class="js-tab-trigger" data-tab="7">
                         <label class="hero__slider-item">
-                            <input checked type="radio" name="1" value="e" id="radio-5">
+                            <input type="radio" name="1" value="g" id="radio-7">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
-                            <svg width="21" height="42" viewBox="0 0 21 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2"/>
-                                <rect x="1" y="1" width="19" height="14" stroke="#D3DFE8" stroke-width="2"/>
+                            <svg width="21" height="42" viewBox="0 0 21 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2" />
+                                <rect x="1" y="1" width="19" height="14" stroke="#D3DFE8" stroke-width="2" />
                             </svg>
-                            <span class="hero__slider-text">Одностворчатое  <br>окно с фрамугой</span>
+                            <span class="hero__slider-text">Одностворчатое <br>окно с фрамугой</span>
                         </label>
                     </div>
 
 
-                    <div>
+                    <div class="js-tab-trigger" data-tab="8">
                         <label class="hero__slider-item">
-                            <input checked type="radio" name="1" value="e" id="radio-5">
+                            <input type="radio" name="1" value="h" id="radio-8">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
-                            <svg width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2"/>
-                                <rect x="20" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2"/>
-                                </svg>
-                            <span class="hero__slider-text">Двухстворчатое  <br>окно</span>
+                            <svg width="40" height="42" viewBox="0 0 40 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2" />
+                                <rect x="20" y="1" width="19" height="40" stroke="#D3DFE8" stroke-width="2" />
+                            </svg>
+                            <span class="hero__slider-text">Двухстворчатое <br>окно</span>
                         </label>
                     </div>
 
-                    <div>
+                    <div class="js-tab-trigger" data-tab="9">
                         <label class="hero__slider-item">
-                            <input checked type="radio" name="1" value="e" id="radio-5">
+                            <input type="radio" name="1" value="i" id="radio-9">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
-                            <svg width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="1" y="15" width="19" height="26" stroke="#D3DFE8" stroke-width="2"/>
-                                <rect x="1" y="1" width="38" height="14" stroke="#D3DFE8" stroke-width="2"/>
-                                <rect x="20" y="15" width="19" height="26" stroke="#D3DFE8" stroke-width="2"/>
-                                </svg>
-                            <span class="hero__slider-text">Двухстворчатое  <br>окно с фрамугой</span>
+                            <svg width="40" height="42" viewBox="0 0 40 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="15" width="19" height="26" stroke="#D3DFE8" stroke-width="2" />
+                                <rect x="1" y="1" width="38" height="14" stroke="#D3DFE8" stroke-width="2" />
+                                <rect x="20" y="15" width="19" height="26" stroke="#D3DFE8" stroke-width="2" />
+                            </svg>
+                            <span class="hero__slider-text">Двухстворчатое <br>окно с фрамугой</span>
                         </label>
                     </div>
 
@@ -246,13 +252,118 @@
             <div class="profile-system">
                 <p class="profile-system__text">Профильная система:</p>
                 <div class="profile-system__wrap">
-                    <a href="#" class="profile-system__link">Эконом</a>
-                    <a href="#" class="profile-system__link">Комфорт</a>
-                    <a href="#" class="profile-system__link">Люкс</a>
-                    <a href="#" class="profile-system__link">Премиум</a>
+                    <label class="profile-system__link">
+                        <input checked type="radio" name="ps" id="r1"><span>Эконом</span>
+                    </label>
+                    <label class="profile-system__link">
+                        <input type="radio" name="ps" id="r2"><span>Комфорт</span>
+                    </label>
+                    <label class="profile-system__link">
+                        <input type="radio" name="ps" id="r3"><span>Люкс</span>
+                    </label>
+                    <label class="profile-system__link">
+                        <input type="radio" name="ps" id="r4"><span>Премиум</span>
+                    </label>
+
+
+                </div>
+                <!--// profile-system__wrap-->
+                <div class="profile-system__wrapp">
+                    <div class="profile-system__group">
+                        <label class="profile-system__radio">
+                            <input type="radio" name="psr" id="rad1"><span>REHAU Blitz New</span>
+                        </label>
+                        <a href="#" class="profile-system__btn1">Для практичных владельцев квартир</a>
+                        <div class="profile-system__group-items">
+
+                            <div class="profile-system__progress">
+                                <progress value="65" max="100"></progress>
+                                <p class="system__group-item1">Солнцезащита</p>
+                            </div>
+
+                            <div class="profile-system__progress">
+                                <progress value="41" max="100"></progress>
+                                <p class="system__group-item2">Шумоизоляция</p>
+                            </div>
+
+                            <div class="profile-system__progress">
+                                <progress value="66" max="100"></progress>
+                                <p class="system__group-item3">Энергосбережение</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="profile-system__group">
+                        <label class="profile-system__radio">
+                            <input checked type="radio" name="psr" id="rad2"><span>KBE Gutwerk</span>
+                        </label>
+                        <a href="#" class="profile-system__btn2">Превосходная шумо– и тепло–изоляция</a>
+                        <div class="profile-system__group-items">
+
+                            <div class="profile-system__progress">
+                                <progress value="30" max="100"></progress>
+                                <p class="system__group-item1">Солнцезащита</p>
+                            </div>
+
+                            <div class="profile-system__progress">
+                                <progress value="88" max="100"></progress>
+                                <p class="system__group-item2">Шумоизоляция</p>
+                            </div>
+
+                            <div class="profile-system__progress">
+                                <progress value="90" max="100"></progress>
+                                <p class="system__group-item3">Энергосбережение</p>
+                            </div>
+
+                        </div>
+                        <!--//profile-system__group-items-->
+                    </div>
+                    <!--//profile-system__group-->
+
                 </div>
 
             </div>
+            <!--//profile-system-->
+            <div class="tabs-content">
+                <div class="tabs-content__item active js-tab-content" data-tab="1">
+                 <img src="./img/png/tryohstv(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="2">
+                   <img src="./img/png/tryohstv_fram(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="3">
+                 <img src="./img/png/arochn(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="4">
+                 <img src="./img/png/balkon_blok(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="5">
+                 <img src="./img/png/erkernoe(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="6">
+                 <img src="./img/png/odnostv(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="7">
+                 <img src="./img/png/odnostv_fram(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="8">
+                 <img src="./img/png/dvustv(all).png" alt="">
+                </div>
+
+                <div class="tabs-content__item js-tab-content" data-tab="9">
+                 <img src="./img/png/dvustv_fram(all).png" alt="">
+                </div>
+
+            </div>
+
         </div>
         <!--//hero__container-->
 
@@ -263,14 +374,16 @@
         <h2>Славик, что-то я очкую!</h2>
     </section>
     <h1>Document</h1>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="js/libs.min.js"></script>
     <script src="js/scripts.min.js"></script>
-    <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.js"></script>
+    <!-- <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.js"></script> -->
+    <script src="js/main.js"></script>
     <!-- <script type="text/javascript">
         if (window.jQuery) alert("jQuery подключен");
         else alert("jQuery не подключен");
-      </script> -->
-    <script src="js/main.js"></script>
+    </script> -->
+
 </body>
 
 </html>
