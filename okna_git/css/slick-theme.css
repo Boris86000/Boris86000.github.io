@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 0;
 }
 [dir='rtl'] .slick-prev
 {
@@ -88,7 +88,7 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: url('../img/svg/arrow_left.svg');
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -97,7 +97,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 20px;
 }
 [dir='rtl'] .slick-next
 {
@@ -106,7 +106,7 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: url('../img/svg/arrow_right.svg');
 }
 [dir='rtl'] .slick-next:before
 {

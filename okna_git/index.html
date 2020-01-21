@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600&display=swap&subset=cyrillic"
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600,800&display=swap&subset=cyrillic"
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" type="text/css" href="css/libs.min.css">
-    <link rel="stylesheet" href="css/styles.min.css.map">
+    <!-- <link rel="stylesheet" href="css/styles.min.css.map"> -->
     <link rel="stylesheet" href="css/slick-theme.css">
     <!-- <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
@@ -118,7 +118,7 @@
 
                     <div class="active js-tab-trigger" data-tab="1">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="a" id="radio-1">
+                            <input type="radio" name="1" value="a" id="radio-1" checked>
                             <!-- <img src="../img/svg/tricuspid_window.svg" alt=""> -->
                             <svg width="59" height="42" viewBox="0 0 59 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -173,7 +173,7 @@
                     </div>
                     <div class="js-tab-trigger" data-tab="5">
                         <label class="hero__slider-item">
-                            <input checked type="radio" name="1" value="e" id="radio-5">
+                            <input type="radio" name="1" value="e" id="radio-5">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
                             <svg width="97" height="58" viewBox="0 0 97 58" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -325,45 +325,118 @@
 
             </div>
             <!--//profile-system-->
-            <div class="tabs-content">
-                <div class="tabs-content__item active js-tab-content" data-tab="1">
-                 <img src="./img/png/tryohstv(all).png" alt="">
-                </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="2">
-                   <img src="./img/png/tryohstv_fram(all).png" alt="">
-                </div>
+            <div class="inner">
+                <div class="tabs-content">
+                    <div class="tabs-content__item active js-tab-content" data-tab="1">
+                        <img src="./img/png/tryohstv(all).png" alt="">
+                        <!-- <img src="./img/png/tryohstv(all).png" alt=""> -->
+                        <div class="casement-types">
+                            <h3 class="casement-types__title">Типы открывания створок</h3>
+                            <div class="obv">
+                                <label class="casement-types__radio">
+                                    <input checked type="radio" name="casement types" id="casemtypes1">
+                                    <span class="txt">Левая створка</span>
+                                </label>
+                                <label class="casement-types__radio">
+                                    <input type="radio" name="casement types" id="casemtypes2">
+                                    <span class="txt">Центральная створка</span>
+                                </label>
+                                <label class="casement-types__radio">
+                                    <input type="radio" name="casement types" id="casemtypes3">
+                                    <span class="txt">Правая створка</span>
+                                </label>
+                            </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="3">
-                 <img src="./img/png/arochn(all).png" alt="">
-                </div>
+                        </div>
+                    </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="4">
-                 <img src="./img/png/balkon_blok(all).png" alt="">
-                </div>
+                    <div class="tabs-content__item js-tab-content" data-tab="2">
+                        <img src="./img/png/tryohstv_fram(all).png" alt="">
+                    </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="5">
-                 <img src="./img/png/erkernoe(all).png" alt="">
-                </div>
+                    <div class="tabs-content__item js-tab-content" data-tab="3">
+                        <img src="./img/png/arochn(all).png" alt="">
+                    </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="6">
-                 <img src="./img/png/odnostv(all).png" alt="">
-                </div>
+                    <div class="tabs-content__item js-tab-content" data-tab="4">
+                        <img src="./img/png/balkon_blok(all).png" alt="">
+                    </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="7">
-                 <img src="./img/png/odnostv_fram(all).png" alt="">
-                </div>
+                    <div class="tabs-content__item js-tab-content" data-tab="5">
+                        <img src="./img/png/erkernoe(all).png" alt="">
+                    </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="8">
-                 <img src="./img/png/dvustv(all).png" alt="">
-                </div>
+                    <div class="tabs-content__item js-tab-content" data-tab="6">
+                        <img src="./img/png/odnostv(all).png" alt="">
+                    </div>
 
-                <div class="tabs-content__item js-tab-content" data-tab="9">
-                 <img src="./img/png/dvustv_fram(all).png" alt="">
-                </div>
+                    <div class="tabs-content__item js-tab-content" data-tab="7">
+                        <img src="./img/png/odnostv_fram(all).png" alt="">
+                    </div>
 
+                    <div class="tabs-content__item js-tab-content" data-tab="8">
+                        <img src="./img/png/dvustv(all).png" alt="">
+                    </div>
+
+                    <div class="tabs-content__item js-tab-content" data-tab="9">
+                        <img src="./img/png/dvustv_fram(all).png" alt="">
+                    </div>
+
+                </div>
+                <!-- <div class="slide-content">
+                    <h3 class="slide-content__title">Типы открывания створок</h3>
+                    <div class="slide-content__list slider-nav">
+                        <div class="">
+                            <p class="slide-content__subtitle">Левая створка</p>
+                            <p class="slide-content__subtitle">Центральная створка</p>
+                            <p class="slide-content__subtitle">Правая створка</p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle">Левая створка</p>
+                            <p class="slide-content__subtitle">Центральная створка</p>
+                            <p class="slide-content__subtitle">Правая створка</p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <div class="">
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                            <p class="slide-content__subtitle"></p>
+                        </div>
+                        <img src="../img/png/left_stv.png" alt="">
+                    </div>
+
+                </div> -->
             </div>
-
         </div>
         <!--//hero__container-->
 

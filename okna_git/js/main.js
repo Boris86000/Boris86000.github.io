@@ -21,3 +21,6 @@ $('.js-tab-trigger').on('click', function() {
    $('.js-tab-content.active').removeClass('active');
    tab.addClass('active');
 });
+
+
+     
