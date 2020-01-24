@@ -9,8 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600,800&display=swap&subset=cyrillic"
         rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/libs.min.css">  
-    <link rel="stylesheet" href="css/styles.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
     <!-- <link rel="stylesheet" href="css/styles.min.css.map"> -->
     <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" /> -->
@@ -116,9 +116,9 @@
                 <!-- <img src="../img/svg/arrow_left.svg" alt=""> -->
                 <div class="hero__slider-wrap one-time">
 
-                    <div class="active js-tab-trigger" data-tab="1">
+                    <div class="js-tab-trigger" data-tab="1">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="a" id="radio-1" checked>
+                            <input type="radio" name="radbutton" id="radio-1" checked>
                             <!-- <img src="../img/svg/tricuspid_window.svg" alt=""> -->
                             <svg width="59" height="42" viewBox="0 0 59 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +132,7 @@
 
                     <div class="js-tab-trigger" data-tab="2">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="b" id="radio-2">
+                            <input type="radio" name="radbutton" id="radio-2">
                             <!-- <img src="../img/svg/tricuspid_window_with_transom.svg" alt=""> -->
                             <svg width="59" height="42" viewBox="0 0 59 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -146,7 +146,7 @@
                     </div>
                     <div class="js-tab-trigger" data-tab="3">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="c" id="radio-3">
+                            <input type="radio" name="radbutton" id="radio-3">
                             <!-- <img src="../img/svg/arched_window.svg" alt=""> -->
                             <svg width="21" height="42" viewBox="0 0 21 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -158,7 +158,7 @@
                     </div>
                     <div class="js-tab-trigger" data-tab="4">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="d" id="radio-4">
+                            <input type="radio" name="radbutton" id="radio-4">
                             <!-- <img src="../img/svg/balcony_block.svg" alt=""> -->
                             <svg width="59" height="54" viewBox="0 0 59 54" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -173,7 +173,7 @@
                     </div>
                     <div class="js-tab-trigger" data-tab="5">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="e" id="radio-5">
+                            <input type="radio" name="radbutton" id="radio-5">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
                             <svg width="97" height="58" viewBox="0 0 97 58" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -193,7 +193,7 @@
 
                     <div class="js-tab-trigger" data-tab="6">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="f" id="radio-6">
+                            <input type="radio" name="radbutton" id="radio-6">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
                             <svg width="21" height="42" viewBox="0 0 21 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -205,7 +205,7 @@
 
                     <div class="js-tab-trigger" data-tab="7">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="g" id="radio-7">
+                            <input type="radio" name="radbutton" id="radio-7">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
                             <svg width="21" height="42" viewBox="0 0 21 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -219,7 +219,7 @@
 
                     <div class="js-tab-trigger" data-tab="8">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="h" id="radio-8">
+                            <input type="radio" name="radbutton" id="radio-8">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
                             <svg width="40" height="42" viewBox="0 0 40 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -232,7 +232,7 @@
 
                     <div class="js-tab-trigger" data-tab="9">
                         <label class="hero__slider-item">
-                            <input type="radio" name="1" value="i" id="radio-9">
+                            <input type="radio" name="radbutton" id="radio-9">
                             <!-- <img src="../img/svg/bay_window _loggia _or_balcony.svg" alt=""> -->
                             <svg width="40" height="42" viewBox="0 0 40 42" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -335,36 +335,48 @@
                             <h3 class="casement-types__title">Типы открывания створок</h3>
                             <div class="obv">
                                 <label class="casement-types__radio active">
-                                    <input checked type="radio" name="casement types" id="casemtypes1">
+                                    <input checked type="radio" name="casement" id="casemtypes1">
                                     <span class="txt">Левая створка</span>
                                 </label>
                                 <label class="casement-types__radio">
-                                    <input type="radio" name="casement types" id="casemtypes2">
+                                    <input type="radio" name="casement" id="casemtypes2">
                                     <span class="txt">Центральная створка</span>
                                 </label>
                                 <label class="casement-types__radio">
-                                    <input type="radio" name="casement types" id="casemtypes3">
+                                    <input type="radio" name="casement" id="casemtypes3">
                                     <span class="txt">Правая створка</span>
                                 </label>
 
 
                             </div>
+
+                            <div class="envelope">
+                                <div class="casegroup">
+                                    <label class="casement-types__radio--img">
+                                        <input checked type="radio" name="casement-types" id="casemtypes5">
+                                        <img src="img/png/left_stv.png" alt="" style="height:92px">
+                                        <span class="txt1">Поворотная</span>
+                                    </label>
+                                </div>
+
                             <div class="casegroup">
                                 <label class="casement-types__radio--img">
-                                <img src="img/png/left_stv.png" alt="">
-                                <input checked type="radio" name="casement types" id="casemtypes4">
-                                <span class="txt1">Поворотная</span>
-                            </label>
+                                    <input type="radio" name="casement-types" id="casemtypes5">
+                                    <img src="img/png/otkidnoe.png" alt="">
+                                    <span class="txt1">Откидная</span>
+                                </label>
+                            </div>
+
+                            <div class="casegroup">
+                                <label class="casement-types__radio--img">
+                                    <input type="radio" name="casement-types" id="casemtypes6">
+                                    <img src="img/png/gluhoe.png" alt="">
+                                    <span class="txt1">Глухая</span>
+                                </label>
+                            </div>
                             </div>
                             
-                            <label class="casement-types__radio--img">
-                                <input checked type="radio" name="casement types" id="casemtypes5">
-                                <span class="txt1">Откидная</span>
-                            </label>
-                            <label class="casement-types__radio--img">
-                                <input checked type="radio" name="casement types" id="casemtypes6">
-                                <span class="txt1">Глухая</span>
-                            </label>
+
                         </div>
                     </div>
 
