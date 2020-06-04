@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="js/libs.min.js"></script>
+    <script src="js/scripts.min.js"></script>
     <link rel="stylesheet" href="css/styles.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -29,7 +31,7 @@
     <div class="main-menu">
         <div class="container">
             <div class="wrapper">
-               <a href="#" class="main-menu__link-logo"><img src="img/svg/dhl_logo.svg" alt="логотип"></a> 
+                <a href="#" class="main-menu__link-logo"><img src="img/svg/dhl_logo.svg" alt="логотип"></a>
                 <nav class="navigations">
                     <a href="#" class="navigations-item">Express</a>
                     <a href="#" class="navigations-item">Parcel & Ecommerce</a>
@@ -164,7 +166,7 @@
                 <div class="accordion-item">
                     <div class="item-header">
                         <h3 class="title">Track your shipment</h3>
-                        <div class="icon">+</div>
+                        <div class="icon"></div>
                     </div>
                     <ul class="text">
                         <li class="text-item">Lorem ipsum.</li>
@@ -175,7 +177,7 @@
                 <div class="accordion-item">
                     <div class="item-header">
                         <h3 class="title">Track your shipment</h3>
-                        <div class="icon">+</div>
+                        <div class="icon"></div>
                     </div>
                     <ul class="text">
                         <li class="text-item">Lorem ipsum.</li>
@@ -186,7 +188,7 @@
                 <div class="accordion-item">
                     <div class="item-header">
                         <h3 class="title">Track your shipment</h3>
-                        <div class="icon">+</div>
+                        <div class="icon"></div>
                     </div>
                     <ul class="text">
                         <li class="text-item">Lorem ipsum.</li>
@@ -196,10 +198,11 @@
                 </div>
                 <div class="accordion-item active">
                     <div class="item-header">
-                        <h3 class="title">Track your shipment</h3>
-                        <div class="icon">+</div>
+                        <h3 class="title in">Track your shipment</h3>
+                        <div class="icon"></div>
                     </div>
-                    <ul class="text"><h3 class="text-title">International Services to Another Country</h3>
+                    <ul class="text">
+                        <h3 class="text-title">International Services to Another Country</h3>
                         <li class="text-item">Emergency</li>
                         <li class="text-item">Time Critical</li>
                         <li class="text-item">Less Urgent</li>
@@ -214,53 +217,36 @@
         <div class="container">
             <h3 class="excellence__title">Excellence. Simply delivered.</h3>
             <div class="excellence__group">
-                <p class="excellence__txt">International express deliveries; global freight forwarding by air, sea, road and rail;
-                warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;
-                and other customized logistic services – with everything DHL does, we
-                help connect people and improve their lives.</p>
-            <button class="excellence__btn">learn more</button>
+                <p class="excellence__txt">International express deliveries; global freight forwarding by air, sea, road
+                    and rail;
+                    warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;
+                    and other customized logistic services – with everything DHL does, we
+                    help connect people and improve their lives.</p>
+                <button class="excellence__btn">learn more</button>
             </div>
-            
+
         </div>
     </section>
 
     <div class="placeholder">
         <div class="container">
             <div class="wrapper">
-                <div class="placeholder__img placeholder__img-active" ><img src="./img/svg/themeforest-light-background.svg" alt=""></div>
+                <div class="placeholder__img placeholder__img-active"><img
+                        src="./img/svg/themeforest-light-background.svg" alt=""></div>
                 <div class="placeholder__img"><img src="./img/svg/photodune-light-background.svg" alt=""></div>
                 <div class="placeholder__img"><img src="./img/svg/graphicriver-light-background.svg" alt=""></div>
-                <div class="placeholder__img"><img src="./img/svg/codecanyon-light-background.svg" alt=""></div>      
+                <div class="placeholder__img"><img src="./img/svg/codecanyon-light-background.svg" alt=""></div>
             </div>
         </div>
     </div>
 
     <section class="information">
         <div class="information__inner">
-            
+
         </div>
     </section>
     <section class="borisych">
-        <h2>Славик, что-то я очкую!</h2>
-    </section>
-    <h1>Document</h1>
-    <script src="js/libs.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-
-    <!-- <script type="text/javascript">
-        if (window.jQuery) alert("jQuery подключен");
-        else alert("jQuery не подключен");
-    </script>
-     -->
-
-     <script type="text/javascript">
-        $(".item-header").click(function(){
-          $(".accordion-item").removeClass("active");
-          $(this).parent().addClass("active");
-          $(".icon").text("+");
-          $(this).children(".icon").text("-");
-        });
-      </script>
+  
 </body>
 
 </html>
