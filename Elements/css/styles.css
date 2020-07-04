@@ -1,14 +1,19 @@
-
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto"), url(../fonts/Roboto-Bold.woff2) format('woff2'),
-    url(../fonts/Roboto-Bold.woff) format('woff'), url(../fonts/Roboto-Bold.ttf) format('truetype'), url(../fonts/Roboto-Bold.eot), url(../fonts/Roboto-Bold.eot?#iefix) format('embedded-opentype');
+  src: local("Roboto"), url(../fonts/Roboto-Bold.woff2) format("woff2"),
+    url(../fonts/Roboto-Bold.woff) format("woff"),
+    url(../fonts/Roboto-Bold.ttf) format("truetype"),
+    url(../fonts/Roboto-Bold.eot),
+    url(../fonts/Roboto-Bold.eot?#iefix) format("embedded-opentype");
   font-weight: bold;
 }
 @font-face {
   font-family: "Roboto";
   src: local("Roboto"), url(../fonts/Roboto-Regular.woff2) format("woff2"),
-    url(../fonts/Roboto-Regular.woff) format("woff"), url(../fonts/Roboto-Regular.ttf) format('truetype'), url(../fonts/Roboto-Regular.eot), url(../fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype') ;
+    url(../fonts/Roboto-Regular.woff) format("woff"),
+    url(../fonts/Roboto-Regular.ttf) format("truetype"),
+    url(../fonts/Roboto-Regular.eot),
+    url(../fonts/Roboto-Regular.eot?#iefix) format("embedded-opentype");
   font-weight: 400;
 }
 body,
@@ -24,7 +29,7 @@ body {
   font-weight: 400;
 }
 .btn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   color: white;
   /* padding: 15px 32px; */
@@ -39,6 +44,8 @@ body {
   height: 50px;
   font-family: "Roboto", sans-serif;
 }
-a.btn__wrap-txt{
-  padding: 15px 32px;
+.btn__wrap-txt {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
