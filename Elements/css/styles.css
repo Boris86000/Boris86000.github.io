@@ -30,7 +30,7 @@ body {
 }
 .btn {
   background-color: #4caf50;
-  border: none;
+  border: 1px solid #4caf50;
   color: white;
   /* padding: 15px 32px; */
   padding-left: 32px;
@@ -43,7 +43,37 @@ body {
   cursor: pointer;
   height: 50px;
   font-family: "Roboto", sans-serif;
+
+  background-image: linear-gradient(to left,transparent,transparent 50%,#fff 50%,#fff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
 }
+.btn:hover{
+  /* background-position: 0 0; */
+  color: #000;
+}
+.btn.btn--brown{
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #4caf50;
+  outline: none;
+  text-shadow: 0 -1px 1px #777;
+  background: #4caf50;
+  border: none;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+}
+.btn.btn--brown:hover{
+  color: #000000;
+}
+.btn.btn--brown:active{
+  background-color: #4caf50;
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+
 .btn__wrap-txt {
   height: 100%;
   display: flex;
@@ -51,10 +81,20 @@ body {
 }
 .btn.btn--white {
   background-color: #fff;
-  border: 1px solid #00ff37;
+  border: 1px solid #4caf50;
   color: #1d0606;
+  background-image: linear-gradient(to left,transparent,transparent 50%,#4caf50 50%,#4caf50);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
 }
+.btn.btn--white:hover {
+  background-position: 0 0;
+  color: #fff;
+}
+
 button {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: inherit;
   font-size: inherit;
 }
