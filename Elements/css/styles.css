@@ -105,6 +105,7 @@ body {
 }
 .btn.btn--active:active{
   background-color:#487b5a;
+  color: #eef9f2;
 }
 .btn.btn--disabled:disabled{
   border: 1px solid #c6ddce;
