@@ -92,7 +92,25 @@ body {
   background-position: 0 0;
   color: #fff;
 }
-
+.btn.btn--active, .btn.btn--disabled{
+  border-radius: 50px;
+  outline: none;
+  background-color:transparent;
+  color: #6d947b;
+  border: 1px solid #6d947b;
+}
+.btn.btn--active:hover{
+  background-color: #6d947b;
+  color: #eef9f2;
+}
+.btn.btn--active:active{
+  background-color:#487b5a;
+}
+.btn.btn--disabled:disabled{
+  border: 1px solid #c6ddce;
+  color: #c6ddce;
+  cursor: not-allowed;
+}
 button {
   /* font-family: "Roboto", sans-serif; */
   font-family: inherit;
