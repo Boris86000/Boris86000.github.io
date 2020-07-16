@@ -39,53 +39,53 @@ body {
   cursor: pointer;
   height: 50px;
   font-family: "Roboto", sans-serif;
-  transition: .25s linear;
+  transition: 0.25s linear;
   transition-property: background, color;
   border-radius: 50px;
   outline: none;
-  background-color:#679878;
+  background-color: #679878;
   color: #eefaf2;
   border: 1px solid #6d947b;
 }
-.btn:hover{
+.btn:hover {
   background-color: #588a67;
   color: #eefaf2;
-  }
-.btn__wrap-txt {
+}
+.btn__inner {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-
-.btn.btn--light, .btn.disabled{
+.btn--light {
   border-radius: 50px;
   outline: none;
-  background-color:transparent;
+  background-color: transparent;
   color: #6d947b;
   border: 1px solid #6d947b;
 }
-.btn.btn--light:hover{
-  background-color: #6d947b;
-  color: #eef9f2;
-}
-.btn.btn--light:active{
-  background-color:#487b5a;
-  color: #eef9f2;
-}
-.btn.disabled{
+.btn--superlight {
+  background-color: transparent;
   border: 1px solid #c6ddce;
   color: #c6ddce;
-  cursor: not-allowed;
+  pointer-events: none;
 }
 
-
-.btn:active{
-  background-color:#487b5a;
+.btn.disabled {
+  border: 1px solid #c6ddce;
+  color: #f2fcf5;
+  /* cursor: not-allowed; */
+  pointer-events: none;
+  background-color: #bfdfca;
+}
+.btn--light.disabled{
+  pointer-events: none;
+}
+.btn:active {
+  background-color: #487b5a;
   color: #eef9f2;
 }
 button {
-  /* font-family: "Roboto", sans-serif; */
   font-family: inherit;
   font-size: inherit;
 }
