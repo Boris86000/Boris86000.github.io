@@ -29,10 +29,6 @@ body {
   font-weight: 400;
 }
 .btn {
-  background-color: #4caf50;
-  border: 1px solid #4caf50;
-  color: white;
-  /* padding: 15px 32px; */
   padding-left: 32px;
   padding-right: 32px;
   text-align: center;
@@ -43,76 +39,48 @@ body {
   cursor: pointer;
   height: 50px;
   font-family: "Roboto", sans-serif;
-
-  background-image: linear-gradient(to left,transparent,transparent 50%,#fff 50%,#fff);
-  background-position: 100% 0;
-  background-size: 200% 100%;
-  transition: all .25s ease-in;
-}
-.btn:hover{
-  /* background-position: 0 0; */
-  color: #000;
-}
-
-
-
-.btn__wrap-txt {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-.btn.btn--white {
-  background-color: #fff;
-  border: 1px solid #4caf50;
-  color: #1d0606;
-  background-image: linear-gradient(to left,transparent,transparent 50%,#4caf50 50%,#4caf50);
-  background-position: 100% 0;
-  background-size: 200% 100%;
-  transition: all .25s ease-in;
-}
-.btn.btn--white:hover {
-  background-position: 0 0;
-  color: #fff;
-}
-.btn.btn--active, .btn.btn--disabled1{
-  border-radius: 50px;
-  outline: none;
-  background-color:transparent;
-  color: #6d947b;
-  border: 1px solid #6d947b;
-}
-.btn.btn--active:hover{
-  background-color: #6d947b;
-  color: #eef9f2;
-}
-.btn.btn--active:active{
-  background-color:#487b5a;
-  color: #eef9f2;
-}
-.btn.btn--disabled1{
-  border: 1px solid #c6ddce;
-  color: #c6ddce;
-  cursor: not-allowed;
-}
-.btn.btn--disabled2{
-  background-color: #bfdfca;
-  color: #f5fffa;
-  cursor: not-allowed;
-  border: none;
-  border-radius: 50px;
-}
-.btn.btn--default{
+  transition: .25s linear;
+  transition-property: background, color;
   border-radius: 50px;
   outline: none;
   background-color:#679878;
   color: #eefaf2;
   border: 1px solid #6d947b;
 }
-.btn.btn--default:hover{
-background-color: #588a67;
-color: #eefaf2;
+.btn:hover{
+  background-color: #588a67;
+  color: #eefaf2;
+  }
+.btn__wrap-txt {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
-.btn.btn--default:active{
+
+
+.btn.btn--light, .btn.disabled{
+  border-radius: 50px;
+  outline: none;
+  background-color:transparent;
+  color: #6d947b;
+  border: 1px solid #6d947b;
+}
+.btn.btn--light:hover{
+  background-color: #6d947b;
+  color: #eef9f2;
+}
+.btn.btn--light:active{
+  background-color:#487b5a;
+  color: #eef9f2;
+}
+.btn.disabled{
+  border: 1px solid #c6ddce;
+  color: #c6ddce;
+  cursor: not-allowed;
+}
+
+
+.btn:active{
   background-color:#487b5a;
   color: #eef9f2;
 }
