@@ -53,25 +53,7 @@ body {
   /* background-position: 0 0; */
   color: #000;
 }
-.btn.btn--brown{
-  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #4caf50;
-  outline: none;
-  text-shadow: 0 -1px 1px #777;
-  background: #4caf50;
-  border: none;
-  position: relative;
-  display: inline-block;
-  color: #ffffff;
-}
-.btn.btn--brown:hover{
-  color: #000000;
-}
-.btn.btn--brown:active{
-  background-color: #4caf50;
-  top: .1em;
-  left: .1em;
-  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
-}
+
 
 
 .btn__wrap-txt {
@@ -92,7 +74,7 @@ body {
   background-position: 0 0;
   color: #fff;
 }
-.btn.btn--active, .btn.btn--disabled{
+.btn.btn--active, .btn.btn--disabled1{
   border-radius: 50px;
   outline: none;
   background-color:transparent;
@@ -107,10 +89,32 @@ body {
   background-color:#487b5a;
   color: #eef9f2;
 }
-.btn.btn--disabled:disabled{
+.btn.btn--disabled1{
   border: 1px solid #c6ddce;
   color: #c6ddce;
   cursor: not-allowed;
+}
+.btn.btn--disabled2{
+  background-color: #bfdfca;
+  color: #f5fffa;
+  cursor: not-allowed;
+  border: none;
+  border-radius: 50px;
+}
+.btn.btn--default{
+  border-radius: 50px;
+  outline: none;
+  background-color:#679878;
+  color: #eefaf2;
+  border: 1px solid #6d947b;
+}
+.btn.btn--default:hover{
+background-color: #588a67;
+color: #eefaf2;
+}
+.btn.btn--default:active{
+  background-color:#487b5a;
+  color: #eef9f2;
 }
 button {
   /* font-family: "Roboto", sans-serif; */
