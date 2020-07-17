@@ -89,3 +89,25 @@ button {
   font-family: inherit;
   font-size: inherit;
 }
+
+/* ============Чекбоксы и радиокнопки============= */
+.custom-checkbox i {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border: 2px solid #dcd7d4;
+  color: transparent;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+.custom-checkbox input {
+  position: absolute;
+  visibility: hidden;
+}
+.custom-checkbox input:checked ~ i {
+  color: #fff;
+  background: #11cc0ade;
+  border: 2px solid transparent;
+}
