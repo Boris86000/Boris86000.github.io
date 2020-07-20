@@ -125,8 +125,8 @@ button {
   align-items: center;
   cursor: pointer;
   display: inline-flex;
-  display: -ms-inline-flexbox;
-  ms-flex-align: start;
+  /* display: -ms-inline-flexbox; */
+  /* ms-flex-align: start; */
 }
 .default-checkbox__custom {
   align-items: center;
@@ -159,17 +159,4 @@ button {
 .default-checkbox input:checked ~ .default-checkbox__custom svg {
   transform: scale(1);
 }
-.default-checkbox input.disabled ~ .default-checkbox__custom,
-.default-checkbox input:disabled ~ .default-checkbox__custom {
-  opacity: 0.4;
-}
-.default-checkbox input.disabled ~ .default-checkbox__custom svg,
-.default-checkbox input:disabled ~ .default-checkbox__custom svg {
-  transform: scale(1);
-}
-.default-checkbox input.error ~ .default-checkbox__custom {
-  border-color: #ff0000;
-}
-.default-checkbox label.error {
-  display: none !important;
-}
+
