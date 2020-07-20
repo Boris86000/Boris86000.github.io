@@ -140,12 +140,8 @@ button {
   height: 22px;
   justify-content: center;
   margin-right: 9px;
-  ms-flex-align: center;
-  ms-flex-negative: 0;
-  ms-flex-pack: center;
   position: relative;
   transition: 0.25s linear;
-  transition-property: border-color, backgroud-color;
   width: 22px;
   outline: none;
 }
