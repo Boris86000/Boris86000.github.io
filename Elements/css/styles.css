@@ -115,8 +115,7 @@ button {
   border: 2px solid transparent;
 }
 
-/* .default-checkbox{display:block}.default-checkbox__label{cursor:pointer;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:start;align-items:center}
-.default-checkbox__custom{position:relative;border:2px solid #DBDBDB;background-color:#f3f3f5;border-radius:3px;-ms-flex-negative:0;flex-shrink:0;width:22px;height:22px;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;margin-right:9px;transition:.25s linear;transition-property:border-color,backgroud-color}.default-checkbox__custom svg{fill:#fff;transform:scale(0);transition:all .3s cubic-bezier(.18,.89,.32,1.28)}.default-checkbox__text{text-align:left;transition:all .3s cubic-bezier(.18,.89,.32,1.28)}.default-checkbox input{display:none}.default-checkbox input:checked~.default-checkbox__custom svg{transform:scale(1)}.default-checkbox input.disabled~.default-checkbox__custom,.default-checkbox input:disabled~.default-checkbox__custom{opacity:.4}.default-checkbox input.disabled~.default-checkbox__custom svg,.default-checkbox input:disabled~.default-checkbox__custom svg{transform:scale(1)}.default-checkbox input.error~.default-checkbox__custom{border-color:#FF0000}.default-checkbox label.error{display:none!important} */
+
 
 .default-checkbox {
   display: block;
