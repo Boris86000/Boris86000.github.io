@@ -1,6 +1,9 @@
+
+
+$(document).ready(function(){
 document.querySelector('.custom-select-wrapper').addEventListener('click', function() {
     this.querySelector('.custom-select').classList.toggle('open');
-})
+});
 
 
 for (const option of document.querySelectorAll(".custom-option")) {
@@ -10,6 +13,6 @@ for (const option of document.querySelectorAll(".custom-option")) {
             this.classList.add('selected');
             this.closest('.custom-select').querySelector('.custom-select__trigger span').textContent = this.textContent;
         }
-    })
+    });
 }
-
+});
