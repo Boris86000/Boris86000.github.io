@@ -319,7 +319,7 @@ h4 {
   width: 32px;
   height: 23px;
   transition: all 0.3s;
-  background: url(../img/arrow.svg);
+  background: url(..//img/arrow.svg);
 }
 
 .open .arrow::before {
