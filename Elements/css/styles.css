@@ -228,9 +228,7 @@ h4 {
   color: #ea4b3c;
 }
 
-
 /* ========selectmenu========= */
-
 
 .custom-select-wrapper {
   position: relative;
@@ -306,27 +304,21 @@ h4 {
   background-color: #305c91;
 }
 
-
 .arrow {
   position: relative;
   height: 15px;
   width: 15px;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #305c91;
+  border-right: 2px solid #305c91;
+  transform: rotate(-45deg);
 }
-.arrow::before {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  width: 32px;
-  height: 23px;
-  transition: all 0.3s;
-  background: url(..//img/arrow.svg);
+.arrow.arrow-down {
+transform: rotate(135deg);
 }
 
-.open .arrow::before {
+/* .open .arrow::before {
   left: -5px;
   transform: scaleX(-1);
-}
-
-
-
-
+} */
