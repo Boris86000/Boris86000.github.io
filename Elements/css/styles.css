@@ -316,7 +316,7 @@ h4 {
   content: "";
   position: absolute;
   bottom: 0px;
-  width: 34px;
+  width: 32px;
   height: 23px;
   transition: all 0.3s;
   background: url(../img/arrow.svg);
