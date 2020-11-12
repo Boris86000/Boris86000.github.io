@@ -106,7 +106,6 @@ button {
 }
 .custom-checkbox input {
   position: absolute;
-  /* visibility: hidden; */
   display: none;
 }
 .custom-checkbox input:checked ~ i {
@@ -123,8 +122,6 @@ button {
   align-items: center;
   cursor: pointer;
   display: inline-flex;
-  /* display: -ms-inline-flexbox; */
-  /* ms-flex-align: start; */
 }
 .default-checkbox__custom {
   align-items: center;
@@ -239,6 +236,7 @@ h4 {
   position: relative;
   user-select: none;
   width: 25%;
+  margin-top: 35px;
 }
 .custom-select {
   position: relative;
@@ -247,6 +245,9 @@ h4 {
   border-width: 0 2px 0 2px;
   border-style: solid;
   border-color: #394a6d;
+}
+.custom-select-menu {
+  margin-top: 35px;
 }
 .custom-select__trigger {
   position: relative;
@@ -311,30 +312,21 @@ h4 {
   height: 15px;
   width: 15px;
 }
-.arrow::before, .arrow::after {
+.arrow::before {
   content: "";
   position: absolute;
   bottom: 0px;
-  width: 0.15rem;
-  height: 100%;
-  transition: all 0.5s;
+  width: 32px;
+  height: 23px;
+  transition: all 0.3s;
+  background: url(../img/arrow.svg);
 }
-.arrow::before {
-  left: -5px;
-  transform: rotate(45deg);
-  background-color: #394a6d;
-}
-.arrow::after {
-  left: 5px;
-  transform: rotate(-45deg);
-  background-color: #394a6d;
-}
+
 .open .arrow::before {
   left: -5px;
-  transform: rotate(-45deg);
+  transform: scaleX(-1);
 }
-.open .arrow::after {
-  left: 5px;
-  transform: rotate(45deg);
-}
+
+
+
 

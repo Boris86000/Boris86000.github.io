@@ -15,4 +15,5 @@ for (const option of document.querySelectorAll(".custom-option")) {
         }
     });
 }
+$( document ).tooltip();
 });
