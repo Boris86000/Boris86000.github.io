@@ -310,6 +310,8 @@ h4 {
   width: 18px;
   height: 18px;
   align-items: center;
+  
+  transition: ease-in 0.25s;
   /* border-top: 2px solid #305c91;
   border-right: 2px solid #305c91; */
   /* transform: rotate(-45deg); */
