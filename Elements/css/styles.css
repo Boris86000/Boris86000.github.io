@@ -278,6 +278,7 @@ h4 {
   visibility: hidden;
   pointer-events: none;
   z-index: 2;
+  margin-bottom: 5px;
 }
 .custom-select.open .custom-options {
   opacity: 1;
