@@ -306,18 +306,22 @@ h4 {
 
 .arrow {
   position: relative;
-  height: 15px;
-  width: 15px;
-  width: 20px;
-  height: 20px;
-  border-top: 2px solid #305c91;
-  border-right: 2px solid #305c91;
-  transform: rotate(-45deg);
+  display: flex;
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  /* border-top: 2px solid #305c91;
+  border-right: 2px solid #305c91; */
+  /* transform: rotate(-45deg); */
+  fill: red;
 }
-.arrow.arrow-down {
-transform: rotate(135deg);
+.arrow-down {
+  transform: rotate(-180deg);
 }
 
+/* #Layer_1 {
+  fill: red;
+} */
 /* .open .arrow::before {
   left: -5px;
   transform: scaleX(-1);
