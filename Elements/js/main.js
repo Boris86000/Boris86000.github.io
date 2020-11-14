@@ -1,7 +1,7 @@
 $(document).ready(function () {
     document.querySelector('.custom-select-wrapper').addEventListener('click', function () {
         this.querySelector('.custom-select').classList.toggle('open');
-        this.querySelector('.arrow').classList.toggle('arrow-down');
+        this.querySelector('.arrow').classList.toggle('open');
 
     });
 

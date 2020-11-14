@@ -317,8 +317,8 @@ h4 {
   /* transform: rotate(-45deg); */
   fill: red;
 }
-.arrow-down {
-  transform: rotate(-180deg);
+.arrow.open {
+  transform: scaleY(-1);
 }
 
 /* #Layer_1 {
