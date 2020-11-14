@@ -304,7 +304,7 @@ h4 {
   background-color: #305c91;
 }
 
-/* .arrow {
+.arrow {
   position: relative;
   height: 15px;
   width: 15px;
@@ -316,7 +316,7 @@ h4 {
 }
 .arrow.arrow-down {
 transform: rotate(135deg);
-} */
+}
 
 /* .open .arrow::before {
   left: -5px;
