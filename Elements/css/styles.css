@@ -268,8 +268,8 @@ h4 {
   position: absolute;
   display: block;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: -2;
+  right: -2;
   border: 2px solid #394a6d;
   border-top: 0;
   background: #fff;
