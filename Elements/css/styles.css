@@ -57,38 +57,7 @@ body {
   align-items: center;
 }
 
-.btn--light {
-  border-radius: 50px;
-  outline: none;
-  background-color: transparent;
-  color: #6d947b;
-  border: 1px solid #6d947b;
-}
-.btn--superlight {
-  background-color: transparent;
-  border: 1px solid #c6ddce;
-  color: #c6ddce;
-  pointer-events: none;
-}
-
-.btn.disabled {
-  border: 1px solid #c6ddce;
-  color: #f2fcf5;
-  /* cursor: not-allowed; */
-  pointer-events: none;
-  background-color: #bfdfca;
-}
-.btn--light.disabled {
-  pointer-events: none;
-}
-.btn:active {
-  background-color: #487b5a;
-  color: #eef9f2;
-}
-button {
-  font-family: inherit;
-  font-size: inherit;
-}
+@import url("/css/btn.css");
 
 /* ============Чекбоксы и радиокнопки============= */
 .custom-checkbox {
