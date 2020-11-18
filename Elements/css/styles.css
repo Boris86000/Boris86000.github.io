@@ -57,7 +57,7 @@ body {
   align-items: center;
 }
 
-@import url("btn.css");
+@import url("css/btn.css");
 
 /* ============Чекбоксы и радиокнопки============= */
 .custom-checkbox {
