@@ -5,6 +5,8 @@ $(document).ready(function () {
 
     });
 
+    
+
 
     for (const option of document.querySelectorAll(".custom-option")) {
         option.addEventListener('click', function () {
@@ -26,4 +28,17 @@ $(document).ready(function () {
 			checkboxCL.remove(pState);
 	});
 });
+
+
+});
+
+// остановить стирание анимации от срабатывания при загрузке
+document.addEventListener("DOMContentLoaded",function(){
+	document.querySelector("form").addEventListener("click",e => {
+		let checkboxCL = e.target.classList,
+			pState = "pristine";
+
+		if (checkboxCL.contains(pState))
+			checkboxCL.remove(pState);
+	});
 });
