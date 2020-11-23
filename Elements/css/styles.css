@@ -37,7 +37,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
   cursor: pointer;
   height: 50px;
   font-family: "Roboto", sans-serif;
@@ -47,7 +47,7 @@ body {
   outline: none;
   background-color: #679878;
   color: #eefaf2;
-  border: 1px solid #6d947b;
+  /* border: 1px solid #6d947b; */
 }
 .btn:hover {
   background-color: #588a67;

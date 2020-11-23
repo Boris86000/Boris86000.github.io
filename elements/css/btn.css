@@ -5,7 +5,7 @@
     
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    /* margin: 4px 2px; */
     cursor: pointer;
     height: 50px;
     font-family: "Roboto", sans-serif;
@@ -14,7 +14,7 @@
     outline: none;
     background-color: #df0a0a;
     color: #eefaf2;
-    border: 1px solid #df0a0a;
+    /* border: 1px solid #df0a0a; */
 }
 span.btn-secondary__inner {
     height: 100%;
@@ -24,5 +24,4 @@ span.btn-secondary__inner {
 .btn-secondary:hover {
     background-color:  #720b0b;
     color: #eefaf2;
-    border:1px solid #720b0b;
   }
