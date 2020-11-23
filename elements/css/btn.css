@@ -14,5 +14,10 @@
     outline: none;
     background-color: #df0a0a;
     color: #eefaf2;
-    border: 1px solid #6d947b;
+    border: 1px solid #df0a0a;
 }
+.btn-secondary:hover {
+    background-color:  #720b0b;
+    color: #eefaf2;
+    border:1px solid #720b0b;
+  }
