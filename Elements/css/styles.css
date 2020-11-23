@@ -53,7 +53,7 @@ body {
   background-color: #588a67;
   color: #eefaf2;
 }
-.btn__inner {
+span.btn__inner {
   height: 100%;
   display: flex;
   align-items: center;

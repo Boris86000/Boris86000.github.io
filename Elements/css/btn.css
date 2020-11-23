@@ -16,6 +16,11 @@
     color: #eefaf2;
     border: 1px solid #df0a0a;
 }
+span.btn-secondary__inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 .btn-secondary:hover {
     background-color:  #720b0b;
     color: #eefaf2;
