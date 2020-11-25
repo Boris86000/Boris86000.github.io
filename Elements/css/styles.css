@@ -62,7 +62,7 @@ span.btn__inner {
 
 
 /* ============Чекбоксы и радиокнопки============= */
-.custom-checkbox {
+/* .custom-checkbox {
   margin-right: 35px;
 }
 .custom-checkbox i {
@@ -78,12 +78,12 @@ span.btn__inner {
 .custom-checkbox input {
   position: absolute;
   display: none;
-}
-.custom-checkbox input:checked ~ i {
+} */
+/* .custom-checkbox input:checked ~ i {
   color: #fff;
   background: #11cc0ade;
   border: 2px solid transparent;
-}
+} */
 
 .default-checkbox {
   display: block;
@@ -110,6 +110,14 @@ span.btn__inner {
   width: 22px;
   outline: none;
 }
+
+.default-checkbox__custom:hover{
+  border: 2px solid #11cc0ade;
+}
+.default-checkbox input:checked ~ .default-checkbox__custom{
+  border: 2px solid #11cc0ade;
+}
+
 .default-checkbox__custom svg {
   fill: #fff;
   transform: scale(0);
@@ -126,6 +134,8 @@ span.btn__inner {
 .default-checkbox input:checked ~ .default-checkbox__custom svg {
   transform: scale(1);
 }
+
+
 
 /* радиобатоны */
 
