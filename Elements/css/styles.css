@@ -18,8 +18,8 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: "Jost-Regular";
-  src: local("Roboto"), url(../fonts/Jost-Regular.woff2) format("woff2"),
+  font-family: "Jost";
+  src: local("Jost"), url(../fonts/Jost-Regular.woff2) format("woff2"),
     url(../fonts/Jost-Regular.woff) format("woff"),
     url(../fonts/Jost-Regular.ttf) format("truetype"),
     url(../fonts/Jost-Regular.eot),
