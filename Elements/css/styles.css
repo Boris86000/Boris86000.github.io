@@ -110,11 +110,11 @@ span.btn__inner {
   outline: none;
 }
 
-.default-checkbox__custom:hover{
+/* .default-checkbox__custom:hover{
   border: 2px solid #3f423fde;
-}
+} */
 .default-checkbox input:checked ~ .default-checkbox__custom{
-  border: 2px solid  #3f423fde;
+  border: 2px solid #dbdbdb;
 }
 
 .default-checkbox__custom svg {
