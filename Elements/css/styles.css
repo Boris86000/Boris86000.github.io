@@ -96,7 +96,6 @@ span.btn__inner {
 }
 .default-checkbox__custom {
   align-items: center;
-  background-color: #f3f3f5;
   border: 2px solid #dbdbdb;
   border-radius: 3px;
   display: flex;
@@ -112,10 +111,10 @@ span.btn__inner {
 }
 
 .default-checkbox__custom:hover{
-  border: 2px solid #11cc0ade;
+  border: 2px solid #3f423fde;
 }
 .default-checkbox input:checked ~ .default-checkbox__custom{
-  border: 2px solid #11cc0ade;
+  border: 2px solid  #3f423fde;
 }
 
 .default-checkbox__custom svg {
