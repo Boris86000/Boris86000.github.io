@@ -67,8 +67,6 @@ span.btn__inner {
   align-items: center;
 }
 
-
-
 /* ============Чекбоксы и радиокнопки============= */
 /* .custom-checkbox {
   margin-right: 35px;
@@ -121,7 +119,7 @@ span.btn__inner {
 /* .default-checkbox__custom:hover{
   border: 2px solid #3f423fde;
 } */
-.default-checkbox input:checked ~ .default-checkbox__custom{
+.default-checkbox input:checked ~ .default-checkbox__custom {
   border: 2px solid #dbdbdb;
 }
 
@@ -141,8 +139,6 @@ span.btn__inner {
 .default-checkbox input:checked ~ .default-checkbox__custom svg {
   transform: scale(1);
 }
-
-
 
 /* радиобатоны */
 
@@ -299,7 +295,7 @@ h4 {
   width: 18px;
   height: 18px;
   align-items: center;
-  
+
   transition: ease-in 0.25s;
   /* border-top: 2px solid #305c91;
   border-right: 2px solid #305c91; */
@@ -340,14 +336,16 @@ label {
   -moz-appearance: none;
   -webkit-appearance: none;
 }
-.cb:before, .cb:after {
+.cb:before,
+.cb:after {
   content: "";
   display: block;
   position: absolute;
 }
 .cb:before {
   animation: eraseA 0.5s steps(1) forwards;
-  background: url("https://s22.postimg.cc/fi4blx4gx/checkmark.png") 0 100% / 1.2em 1.35em no-repeat;
+  background: url("https://s22.postimg.cc/fi4blx4gx/checkmark.png") 0 100% /
+    1.2em 1.35em no-repeat;
   bottom: 0.2em;
   left: 0.3em;
   width: 0;
@@ -355,7 +353,67 @@ label {
 }
 .cb:after {
   animation: eraseB 0.5s linear forwards;
-  background: linear-gradient(rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 50%) 11.2em 0, linear-gradient(#c8646e, #c8646e) 11.2em 0, linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) 0.1em, rgba(255, 255, 255, 0) 0.1em, rgba(255, 255, 255, 0) 0.2em, rgba(0, 0, 0, 0.2) 0.2em, rgba(0, 0, 0, 0.2) 0.3em, rgba(0, 0, 0, 0) 0.3em) 9.8em 0 / 0.3em 100%, repeating-linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) 0.1em, rgba(255, 255, 255, 0) 0.1em, rgba(255, 255, 255, 0) 0.2em) 10.2em 0 / 0.5em 100%, linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) 0.1em, rgba(255, 255, 255, 0) 0.1em, rgba(255, 255, 255, 0) 0.2em, rgba(0, 0, 0, 0.2) 0.2em, rgba(0, 0, 0, 0.2) 0.3em, rgba(0, 0, 0, 0) 0.3em) 10.8em 0 / 0.3em 100%, linear-gradient(rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0.6) 35%, rgba(255, 255, 255, 0.6) 65%, rgba(255, 255, 255, 0) 65%) 9.7em 0, linear-gradient(#b4b4b4, #b4b4b4) 9.7em 0, linear-gradient(rgba(0, 0, 0, 0.1) 27%, rgba(0, 0, 0, 0) 27%, rgba(0, 0, 0, 0) 73%, rgba(0, 0, 0, 0.2) 73%) 2em 0, linear-gradient(#f0d000, #f0d000) 2em 0, linear-gradient(-14deg, #1e1e1e 18%, rgba(30, 30, 30, 0) 20%) 0 0 / 0.5em 0.5em, linear-gradient(14deg, rgba(30, 30, 30, 0) 80%, #1e1e1e 83%) 0 0.5em / 0.5em 0.5em, linear-gradient(-14deg, #d2a078 48%, rgba(210, 160, 120, 0) 50%) 0 0 / 2em 0.5em, linear-gradient(14deg, rgba(0, 0, 0, 0) 48%, rgba(0, 0, 0, 0.1) 50%) 0 0.5em / 2em 0.5em, linear-gradient(14deg, rgba(210, 160, 120, 0) 48%, #d2a078 50%) 0 0.5em / 2em 0.5em;
+  background: linear-gradient(
+        rgba(255, 255, 255, 0.2) 50%,
+        rgba(255, 255, 255, 0) 50%
+      )
+      11.2em 0,
+    linear-gradient(#c8646e, #c8646e) 11.2em 0,
+    linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6) 0.1em,
+        rgba(255, 255, 255, 0) 0.1em,
+        rgba(255, 255, 255, 0) 0.2em,
+        rgba(0, 0, 0, 0.2) 0.2em,
+        rgba(0, 0, 0, 0.2) 0.3em,
+        rgba(0, 0, 0, 0) 0.3em
+      )
+      9.8em 0 / 0.3em 100%,
+    repeating-linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6) 0.1em,
+        rgba(255, 255, 255, 0) 0.1em,
+        rgba(255, 255, 255, 0) 0.2em
+      )
+      10.2em 0 / 0.5em 100%,
+    linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6) 0.1em,
+        rgba(255, 255, 255, 0) 0.1em,
+        rgba(255, 255, 255, 0) 0.2em,
+        rgba(0, 0, 0, 0.2) 0.2em,
+        rgba(0, 0, 0, 0.2) 0.3em,
+        rgba(0, 0, 0, 0) 0.3em
+      )
+      10.8em 0 / 0.3em 100%,
+    linear-gradient(
+        rgba(255, 255, 255, 0) 35%,
+        rgba(255, 255, 255, 0.6) 35%,
+        rgba(255, 255, 255, 0.6) 65%,
+        rgba(255, 255, 255, 0) 65%
+      )
+      9.7em 0,
+    linear-gradient(#b4b4b4, #b4b4b4) 9.7em 0,
+    linear-gradient(
+        rgba(0, 0, 0, 0.1) 27%,
+        rgba(0, 0, 0, 0) 27%,
+        rgba(0, 0, 0, 0) 73%,
+        rgba(0, 0, 0, 0.2) 73%
+      )
+      2em 0,
+    linear-gradient(#f0d000, #f0d000) 2em 0,
+    linear-gradient(-14deg, #1e1e1e 18%, rgba(30, 30, 30, 0) 20%) 0 0 / 0.5em
+      0.5em,
+    linear-gradient(14deg, rgba(30, 30, 30, 0) 80%, #1e1e1e 83%) 0 0.5em / 0.5em
+      0.5em,
+    linear-gradient(-14deg, #d2a078 48%, rgba(210, 160, 120, 0) 50%) 0 0 / 2em
+      0.5em,
+    linear-gradient(14deg, rgba(0, 0, 0, 0) 48%, rgba(0, 0, 0, 0.1) 50%) 0 0.5em /
+      2em 0.5em,
+    linear-gradient(14deg, rgba(210, 160, 120, 0) 48%, #d2a078 50%) 0 0.5em /
+      2em 0.5em;
   /* eraser */
   background-repeat: no-repeat;
   border-radius: 0 0.1em 0.1em 0;
@@ -381,15 +439,18 @@ label {
   color: rgba(0, 0, 0, 0.75);
   outline: transparent;
 }
-.pristine:before, .pristine:after {
+.pristine:before,
+.pristine:after {
   animation: none;
 }
 @keyframes drawA {
-  from, 5% {
+  from,
+  5% {
     width: 0;
     height: 1.35em;
   }
-  90%, to {
+  90%,
+  to {
     width: 1.2em;
     height: 1.35em;
   }
@@ -444,7 +505,8 @@ label {
     width: 1.2em;
     height: 0.35em;
   }
-  80%, to {
+  80%,
+  to {
     width: 1.2em;
     height: 0;
   }
@@ -488,4 +550,41 @@ label {
     opacity: 0;
     transform: translate(2em, -12.5em) rotate(100deg);
   }
+}
+.accordeon {
+  max-width: 185px;
+  margin: auto;
+  font-family: Jost, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.accordeon__head{
+  transition: .25s linear;
+  margin: 0;
+  padding: 0;
+}
+.accordeon__head:hover {
+  color: #c74811; 
+}
+.accordeon__containt {
+  list-style: none;
+  display: none;
+}
+
+li.accordeon__containt-item {
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: inherit;
+}
+.accordeon__containt-item-link{
+  transition: .25s linear;
+}
+.accordeon__containt-item-link:hover{
+  color: #c74811;
+}
+.accordeon__containt-item-link {
+  text-decoration: none;
+  color: #1a1a1a;
 }

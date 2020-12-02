@@ -42,3 +42,9 @@ document.addEventListener("DOMContentLoaded",function(){
 			checkboxCL.remove(pState);
 	});
 });
+
+$(document).ready(function(){
+
+$("#head").click(function(){ $("#cont").slideToggle()});
+
+});
