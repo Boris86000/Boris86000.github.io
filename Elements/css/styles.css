@@ -1,4 +1,4 @@
-@import url("css/btn.css");
+@import url("/btn.css");
 @font-face {
   font-family: "Roboto";
   src: local("Roboto"), url(../fonts/Roboto-Bold.woff2) format("woff2"),
