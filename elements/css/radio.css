@@ -1,0 +1,71 @@
+/* радиобатоны */
+
+.set-home {
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 40px;
+  }
+  .set-home__item {
+    width: 25%;
+    padding-right: 10px;
+  }
+  h4 {
+    margin-bottom: 20px;
+  }
+  .default-radio {
+    display: block;
+  }
+  .default-radio__label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    outline: none;
+  }
+  .default-radio input {
+    display: none;
+  }
+  .set-home .default-radio {
+    margin-bottom: 8px;
+  }
+  .default-radio__custom {
+    position: relative;
+    border: 2px solid #dbdbdb;
+    background-color: #f3f3f5;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    transition: 0.25s linear;
+    transition-property: border-color, border-width;
+    outline: none;
+  }
+  .default-radio__custom:after {
+    content: "";
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background-color: #29d;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    border: 5px solid #29d;
+  }
+  .default-radio__text {
+    text-align: left;
+    user-select: none;
+  }
+  .default-radio input:checked ~ .default-radio__custom:after {
+    transform: scale(1);
+  }
+  .default-radio input:checked ~ .default-radio__custom {
+    border: 3px solid #766f6e;
+  }
+  .default-radio input:checked ~ .default-radio__text::after {
+    content: "\00AB";
+    padding-left: 5px;
+    color: #ea4b3c;
+  }
