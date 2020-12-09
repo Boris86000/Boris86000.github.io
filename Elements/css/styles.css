@@ -2,7 +2,7 @@
 @import url("btn/btn.css");
 @import url("checkbox.css");
 @import url("radio.css");
-@import url("select-menu");
+@import url("select-menu.css");
 @font-face {
   font-family: "Roboto";
   src: local("Roboto"), url(../fonts/Roboto-Bold.woff2) format("woff2"),
