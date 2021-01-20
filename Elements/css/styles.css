@@ -421,3 +421,10 @@ li.accordeon__containt-item {
 	justify-content: space-around;
 	width: 100%;
 }
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: Roboto-Medium,sans-serif;
+    color: #646566;
+    text-align: center;
+}
