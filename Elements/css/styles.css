@@ -380,3 +380,35 @@ li.accordeon__containt-item {
   color: #1a1a1a;
 }
 
+.our-production
+{
+	background-color: #ffffff;
+	padding-bottom: 105px;
+	padding-top: 108px;
+}
+.our-production__cards
+{
+	display: flex;
+	justify-content: space-between;
+	max-width: 768px;
+	width: 100%;
+}
+.our-production__card
+{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	width: 180px;
+}
+.our-production__card-img
+{
+	display: inline-block;
+	margin-bottom: 33px;
+}
+.our-production__wrapper
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
